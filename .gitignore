@@ -4,3 +4,7 @@
 .Ruserdata
 .qs
 dados
+.Rdata
+.httr-oauth
+.DS_Store
+.quarto

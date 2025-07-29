@@ -197,8 +197,8 @@ iexo_server <- function(id) {
           select(-Total)
         
         a <- a |> tidyr::pivot_longer(cols = c("Ignorado", "Não", "Sim"),  # Colunas que você quer transformar
-                               names_to = "ds_hospital",             # Nova coluna para os nomes das colunas anteriores
-                               values_to = "n")
+                                      names_to = "ds_hospital",             # Nova coluna para os nomes das colunas anteriores
+                                      values_to = "n")
         
         b <- df_iexo |>
           filter(

@@ -22,7 +22,7 @@ sih_server <- function(id) {
             ano %in% input$filtro_ano
           ) |> 
           faixa_etaria_graf() 
-       
+        
       })
       # Download da tabela Faixa etária
       output$download_tab_faixa_etaria <- downloadHandler(

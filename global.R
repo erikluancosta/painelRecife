@@ -35,7 +35,7 @@ library(qs)
 #---------------------------
 
 ## Tela Linkage
-base_linkage <- qread("dados/base_linkage.qs") 
+base_linkage <- qread("dados/base_linkage.qs")
 
 # Tela SINAN Viol
 df_sinan <- qread("dados/sinan_viol.qs")
